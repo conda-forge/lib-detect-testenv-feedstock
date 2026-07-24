@@ -1,5 +1,5 @@
 {% set name = "lib-detect-testenv" %}
-{% set version = "2.0.8" %}
+{% set version = "3.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lib_detect_testenv-{{ version }}.tar.gz
-  sha256: 96527b3114727e70e80f671c204a225ae6aaaf117983f8fa4f56e542b2368d43
+  sha256: af0fc2169ee44952c1175f8c4ea96539852c2c875ddab0c9e6ab2ce8ff9335fd
 
 build:
   noarch: python
